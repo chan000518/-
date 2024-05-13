@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const SECRET_KEY = 'your_secret_key';
+const SECRET_KEY = 'piro';
 
 // JWT 검증 미들웨어
 const authenticateToken = (req, res, next) => {
